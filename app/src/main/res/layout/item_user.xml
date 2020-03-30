@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/item_color"
+    tools:background="@color/item_selected_color"
+    android:padding="12dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+
+        tools:text="Pupkin Vasya" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="8dp"
+
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+
+        tools:text="Vasya" />
+
+</LinearLayout>

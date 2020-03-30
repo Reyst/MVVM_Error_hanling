@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph.xml"
+    app:startDestination="@id/users">
+
+    <fragment
+        android:id="@+id/users"
+        android:name="gsihome.reyst.mvvm.example.ui.users.UsersFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/list_fragment" />
+    <fragment
+        android:id="@+id/albums"
+        android:name="gsihome.reyst.mvvm.example.ui.albums.AlbumsFragment"
+        android:label="fragment_food"
+        tools:layout="@layout/list_fragment" />
+
+    <fragment
+        android:id="@+id/photos"
+        android:name="gsihome.reyst.mvvm.example.ui.photos.PhotosFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/list_fragment" />
+
+</navigation>

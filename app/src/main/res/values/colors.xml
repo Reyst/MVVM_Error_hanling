@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#001EC8</color>
+    <color name="colorPrimaryDark">#000F64</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="bottomIconSelectedColor">@android:color/white</color>
+    <color name="bottomIconUnselectedColor">@android:color/black</color>
+    <color name="item_selected_color">#323CF0</color>
+    <color name="item_color">#464646</color>
+</resources>
